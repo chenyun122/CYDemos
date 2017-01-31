@@ -4,6 +4,7 @@ Useful codes backup
 UIView+ColorOfView:
 Get color of a point in a UIView, usage:
 
+```swift
 //Example: get the color when user touchs in a view
 class ExampleView: UIView {
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -14,3 +15,4 @@ class ExampleView: UIView {
         }
     }
 }
+```
