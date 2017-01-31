@@ -1,9 +1,9 @@
 //
 //  UIView+ColorOfPoint.swift
-//  ArcMenu
+//  CYKit
 //
 //  Created by ChenYun on 2017/1/31.
-//  Copyright © 2017年 ChenYun. All rights reserved.
+//  Copyright © 2017 ChenYun. All rights reserved.
 //
 
 import UIKit
