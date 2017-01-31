@@ -1,0 +1,16 @@
+# CYKit
+Useful codes backup
+
+UIView+ColorOfView:
+Get color of a point in a UIView, usage:
+
+//Example: get the color when user touchs in a view
+class ExampleView: UIView {
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        for touch in touches {
+            let location = touch.location(in: self)
+            let color = self.colorOfPoint(point: location)
+            //Go ahead to handle the color...
+        }
+    }
+}
