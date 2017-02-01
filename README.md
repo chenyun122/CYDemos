@@ -5,6 +5,15 @@ Useful Swift codes backup
 Get color of a point in a UIView, `usage`:
 
 ```swift
+//Static method
+let color = UIView.colorOfPoint(point: aPoint, view: aView)
+
+//Call instance method in a custom view
+let color = self.colorOfPoint(point: aPoint)
+```
+
+
+```swift
 //Example: get the color when touching in a view
 class ExampleView: UIView {
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
