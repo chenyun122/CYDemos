@@ -25,3 +25,9 @@ class ExampleView: UIView {
     }
 }
 ```
+
+## AnnularSectorView
+A demo of drawing annular sector with UIBezierPath:
+<p align="center" >
+<img src="https://raw.githubusercontent.com/chenyun122/CYKit/master/AnnularSectorView/AnnularSectorView.png" alt="AnnularSectorView" title="AnnularSectorView">
+</p>
