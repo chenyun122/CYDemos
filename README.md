@@ -27,7 +27,15 @@ class ExampleView: UIView {
 ```
 
 ## AnnularSectorView
-A demo of drawing annular sector with UIBezierPath:
+A demo of drawing annular sector with UIBezierPath, `usage`:
+```swift
+let annularSectorView = AnnularSectorView(frame: CGRect(x: 0, y: 0, width: 200, height: 200))
+annularSectorView.numberOfSectors = 4
+self.view.addSubview(annularSectorView)
+
+// Feel free to change the source code directly to fit your specific requirements 
+```
+
 <p align="center" >
 <img src="https://raw.githubusercontent.com/chenyun122/CYKit/master/AnnularSectorView/AnnularSectorView.png" alt="AnnularSectorView" title="AnnularSectorView">
 </p>

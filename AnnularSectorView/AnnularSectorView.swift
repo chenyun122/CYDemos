@@ -10,12 +10,12 @@ import UIKit
 
 class AnnularSectorView: UIView {
     
-    let numberOfSectors = 4
-    let startAngle = CGFloat.pi / 8
-    let lineWidth:CGFloat = 35.0
-    let colors:[UInt] = [0x78c06e,0xa46ec0,0xf8c027,0x72b3d3,0xed6157]
+    var numberOfSectors = 4
+    var startAngle = CGFloat.pi / 8
+    var lineWidth:CGFloat = 35.0
     var radian:CGFloat = 0.0
-    
+    let colors:[UInt] = [0x78c06e,0xa46ec0,0xf8c027,0x72b3d3,0xed6157]
+
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.customInit()
