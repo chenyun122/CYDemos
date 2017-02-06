@@ -30,6 +30,8 @@ class ExampleView: UIView {
 A demo of drawing annular sector with UIBezierPath, `usage`:
 ```swift
 let annularSectorView = AnnularSectorView(frame: CGRect(x: 0, y: 0, width: 200, height: 200))
+annularSectorView.startAngle = CGFloat.pi * 9 / 8
+annularSectorView.endAngle = CGFloat.pi * 15 / 8
 annularSectorView.numberOfSectors = 4
 self.view.addSubview(annularSectorView)
 

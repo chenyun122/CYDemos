@@ -10,8 +10,9 @@ import UIKit
 
 class AnnularSectorView: UIView {
     
+    var startAngle = CGFloat.pi * 9 / 8
+    var endAngle = CGFloat.pi * 15 / 8
     var numberOfSectors = 4
-    var startAngle = CGFloat.pi / 8
     var lineWidth:CGFloat = 35.0
     var radian:CGFloat = 0.0
     let colors:[UInt] = [0x78c06e,0xa46ec0,0xf8c027,0x72b3d3,0xed6157]
@@ -28,12 +29,12 @@ class AnnularSectorView: UIView {
     
     func customInit() {
         self.backgroundColor = UIColor.clear
-        self.radian = (CGFloat.pi - startAngle * 2) / CGFloat(numberOfSectors)
+        self.radian = (endAngle - startAngle) / CGFloat(numberOfSectors)
     }
     
     override func draw(_ rect: CGRect) {
         for index in 0...numberOfSectors - 1 {
-            let _startAngle = CGFloat.pi + self.startAngle + radian * CGFloat(index)
+            let _startAngle = self.startAngle + radian * CGFloat(index)
             let _endAngle = _startAngle + radian
             
             let path =  UIBezierPath(arcCenter: CGPoint(x: rect.width / 2.0, y: rect.height), radius: rect.width / 2.0 - lineWidth / 2, startAngle: _startAngle, endAngle: _endAngle, clockwise: true)
