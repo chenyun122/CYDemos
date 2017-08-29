@@ -45,4 +45,4 @@ self.view.addSubview(annularSectorView)
 
 ## License
 
-AFNetworking is released under the MIT license. See LICENSE for details.
+CYKit is released under the MIT license. See LICENSE for details.
