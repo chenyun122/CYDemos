@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class VideoConverter: Any {
+class VideoHelper: Any {
 
     func convertMovToMp4(urlOfMovFile:URL) {
         let avAsset = AVURLAsset(url: urlOfMovFile)
@@ -34,6 +34,26 @@ class VideoConverter: Any {
                     }
                 }
             }
+        }
+    }
+    
+    func previewImageForLocalVideo(url:URL) -> UIImage? {
+        let asset = AVURLAsset(url: url)
+        let imageGenerator = AVAssetImageGenerator(asset: asset)
+        imageGenerator.appliesPreferredTrackTransform = true
+        
+        var time = asset.duration
+        //If possible - take not the first frame (it could be completely black or white on camara's videos)
+        time.value = min(time.value, 2)
+        
+        do {
+            let imageRef = try imageGenerator.copyCGImage(at: time, actualTime: nil)
+            return UIImage(cgImage: imageRef)
+        }
+        catch let error as NSError
+        {
+            print("Image generation failed with error \(error)")
+            return nil
         }
     }
     
