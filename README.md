@@ -1,5 +1,5 @@
-# CYKit
-Useful Swift codes backup
+# CYDemos
+Useful codes backups and demonstrations. It’s growing.
 
 ## UIView+ColorOfPoint
 Get color of a point in a UIView, `usage`:
