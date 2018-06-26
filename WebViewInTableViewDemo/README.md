@@ -3,7 +3,7 @@ This is a demostration of embedding multiple `WKWebViews` in `UITableView` cells
 For this purpose, we use JS to callback and pass the height after the HTML conents have been totally loaded, includes the images. The result is like following screen shot:  
 
 <p align="center" >
-<img src="https://raw.githubusercontent.com/chenyun122/CYKit/master/WebViewInTableViewDemo/Screenshot_2018-06-26.png" alt="WebView in TableView Demo" title="WebView in TableView Demo" width="35%">
+<img src="https://raw.githubusercontent.com/chenyun122/CYKit/master/WebViewInTableViewDemo/Screenshot_2018-06-26.png" alt="WebView in TableView Demo" title="WebView in TableView Demo" width="50%">
 </p>
 
 
