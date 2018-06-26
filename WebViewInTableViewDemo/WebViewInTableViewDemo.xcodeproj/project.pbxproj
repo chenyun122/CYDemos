@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		941ABB5220E2214A000BB052 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 941ABB5020E2214A000BB052 /* Reachability.m */; };
-		941ABB5420E229FD000BB052 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 941ABB5320E229FD000BB052 /* Localizable.strings */; };
+		941ABB5720E23A03000BB052 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 941ABB5520E23A03000BB052 /* Localizable.strings */; };
 		94439F0B20DE114B00588EBE /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 94439EDD20DE114B00588EBE /* UIScrollView+MJRefresh.m */; };
 		94439F0C20DE114B00588EBE /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 94439EDE20DE114B00588EBE /* MJRefreshConst.m */; };
 		94439F0D20DE114B00588EBE /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 94439EE220DE114B00588EBE /* MJRefresh.bundle */; };
@@ -44,7 +44,7 @@
 /* Begin PBXFileReference section */
 		941ABB5020E2214A000BB052 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		941ABB5120E2214A000BB052 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		941ABB5320E229FD000BB052 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		941ABB5620E23A03000BB052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		94439EDD20DE114B00588EBE /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		94439EDE20DE114B00588EBE /* MJRefreshConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshConst.m; sourceTree = "<group>"; };
 		94439EDF20DE114B00588EBE /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
@@ -251,14 +251,15 @@
 				94FE7D8220DA36BF000FDE90 /* ViewController.h */,
 				94FE7D8320DA36BF000FDE90 /* ViewController.m */,
 				94FE7D8520DA36BF000FDE90 /* Main.storyboard */,
-				94FE7D8820DA36C1000FDE90 /* Assets.xcassets */,
-				94FE7D8A20DA36C1000FDE90 /* LaunchScreen.storyboard */,
-				94FE7D8D20DA36C1000FDE90 /* Info.plist */,
-				94FE7D8E20DA36C1000FDE90 /* main.m */,
 				94FE7D9A20DA38C8000FDE90 /* WebViewTableViewCell.h */,
 				94FE7D9B20DA38C8000FDE90 /* WebViewTableViewCell.m */,
 				94AB5A5920DB924800860096 /* DataModel.h */,
 				94AB5A5A20DB924800860096 /* DataModel.m */,
+				94FE7D8E20DA36C1000FDE90 /* main.m */,
+				94FE7D8D20DA36C1000FDE90 /* Info.plist */,
+				94FE7D8820DA36C1000FDE90 /* Assets.xcassets */,
+				94FE7D8A20DA36C1000FDE90 /* LaunchScreen.storyboard */,
+				941ABB5520E23A03000BB052 /* Localizable.strings */,
 				94FE7D9520DA37CA000FDE90 /* Resources */,
 				94439EDB20DE114B00588EBE /* SDKs */,
 			);
@@ -268,7 +269,6 @@
 		94FE7D9520DA37CA000FDE90 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				941ABB5320E229FD000BB052 /* Localizable.strings */,
 				94FE7D9620DA37CA000FDE90 /* Questions.json */,
 				94FE7D9720DA37CA000FDE90 /* QuestionsRaw.json */,
 			);
@@ -335,7 +335,7 @@
 				94FE7D9920DA37CA000FDE90 /* QuestionsRaw.json in Resources */,
 				94FE7D8C20DA36C1000FDE90 /* LaunchScreen.storyboard in Resources */,
 				94439F0D20DE114B00588EBE /* MJRefresh.bundle in Resources */,
-				941ABB5420E229FD000BB052 /* Localizable.strings in Resources */,
+				941ABB5720E23A03000BB052 /* Localizable.strings in Resources */,
 				94FE7D9820DA37CA000FDE90 /* Questions.json in Resources */,
 				94FE7D8920DA36C1000FDE90 /* Assets.xcassets in Resources */,
 				94FE7D8720DA36BF000FDE90 /* Main.storyboard in Resources */,
@@ -380,6 +380,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		941ABB5520E23A03000BB052 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				941ABB5620E23A03000BB052 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		94FE7D8520DA36BF000FDE90 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
