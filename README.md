@@ -39,7 +39,7 @@ self.view.addSubview(annularSectorView)
 ```
 
 <p align="center" >
-<img src="https://raw.githubusercontent.com/chenyun122/CYKit/master/AnnularSectorView/AnnularSectorView.png" alt="AnnularSectorView" title="AnnularSectorView">
+<img src="https://raw.githubusercontent.com/chenyun122/CYKit/master/AnnularSectorView/AnnularSectorView.png" alt="AnnularSectorView" title="AnnularSectorView" width="50%">
 </p>
 
 ## WebView in TableView Demo
