@@ -1,0 +1,124 @@
+{
+    "data": [
+        {
+            "content": "<p>\n\t数轴上坐标是整数的点称为整点，3条线段的长度之和是19.99，把这三条线段放在数轴上，覆盖的整点最多有（　　）个，最少有（　　）个．\n</p>\n<p>\n\tA．23，19\n</p>\n<p>\n\tB．23，12\n</p>\n<p>\n\tC．22，7\n</p>\n<p>\n\tD．22，6\n</p>",
+            "id": 21684,
+            "explanation": "<p>\n\t分析:根据题意首先分析三条线段最多覆盖整点数，若线段长为整数m，则最多可覆盖m+1个整点，再分析最多覆盖整点数，将线段长度定为6.66、6.66、6.67且将三条线段重叠，那么覆盖整点数最少6个．\n</p>\n<p>\n\t解：若线段长为整数m，则最多可覆盖m+1个整点（线段开始于整点时）\n</p>\n<p>\n\t若线段长为s不为整数，则最多可覆盖[s]+1个整点（[s]代表小于s的最大整数）\n</p>\n<p>\n\t设3条线段长为x、y、z，共覆盖整点数为n\n</p>\n<p>\n\tn≤x+1+y+1+z+1=x+y+z+3=19.9+3=22.9\n</p>\n<p>\n\t又因为n为整数 n最大为22．\n</p>\n<p>\n\t易知将线段长度定为1、1、17.9可得到22的结果，所以最多22个．\n</p>\n<p>\n\t若将线段长度定为6.66、6.66、6.67，且将三条线段重叠，那么覆盖整点数最少6个．\n</p>\n<p>\n\t故选D．\n</p>",
+            "videourl": "http://cdn-web-video.zgyjyx.com/dit_17/FtKBOVgXQaOcxFNX8Ygx7iSY0PAw.mp4"
+        },
+        {
+            "content": "<p>\n\t下列各组数中，互为相反数的一组是（　　）\n</p>\n<p>\n\tA．<img src=\"http://cdn-web-img.zgyjyx.com/mgr/a81fa3ddccb0455ffa2f5e5cba7e8766\" />和0.333\n</p>\n<p>\n\tB．<img src=\"http://cdn-web-img.zgyjyx.com/mgr/072fb08db17f378a1a4ee79c53553ab7\" />和7\n</p>\n<p>\n\tC．<img src=\"http://cdn-web-img.zgyjyx.com/mgr/5004c742b1687837859000302247b175\" />和0.25\n</p>\n<p>\n\tD．<img src=\"http://cdn-web-img.zgyjyx.com/mgr/a29adf9fff745535d19d4a70cd7eb6ea\" />和6\n</p>",
+            "id": 53375,
+            "explanation": "<p>\n\t分析：根据只有符号不同的两个数叫做互为相反数对各选项进行分析判断即可．\n</p>\n<p>\n\t解：A.<img src=\"http://cdn-web-img.zgyjyx.com/mgr/a81fa3ddccb0455ffa2f5e5cba7e8766\" />和0.333不是相反数，故本选项错误；\n</p>\n<p>\n\tB.<img src=\"http://cdn-web-img.zgyjyx.com/mgr/072fb08db17f378a1a4ee79c53553ab7\" /><img src=\"http://cdn-web-img.zgyjyx.com/mgr/23dc63e578aa3e32b3a98b78c20f7b7b\" />和7相等，不是相反数，故本选项错误；\n</p>\n<p>\n\tC.<img src=\"http://cdn-web-img.zgyjyx.com/mgr/5004c742b1687837859000302247b175\" />和0.25是互为相反数，故本选项正确；\n</p>\n<p>\n\tD.<img src=\"http://cdn-web-img.zgyjyx.com/mgr/25043707420a75e88c95bc7135da7b92\" />和6相等，不是相反数，故本选项错误．\n</p>\n<p>\n\t故选C．\n</p>",
+            "videourl": "http://cdn-web-video.zgyjyx.com/dit_6968/Fvkm3je_1Via7tB_vzuWzjrmtV3s.mp4"
+        },
+        {
+            "content": "<p>\n\t点A、B在数轴上的位置如图所示，点P是数轴上的一个动点，（1）当PB=2时，求点P表示的数？（2）当点P是线段AB的三等分点时，求点P表示的数？（3）当PB=2，且点M是线段AP的中点时，求线段AM的长度？（4）是否存在点P，使得PA+PB的值最小，若存在，确定点P在数轴上的位置，并求出PA+PB的最小值？\n</p>\n<p>\n\t<img src=\"http://cdn-web-img.zgyjyx.com/dit_12752/Fs6s9nEuzVXkITVUABX4OmNUpWrc.png\" width=\"400\" height=\"37\" alt=\"\" /> \n</p>",
+            "id": 13242,
+            "explanation": "<p>\n\t分析:（1）根据PB=2，分两种情况：①点P在点B的左边；②点P在点B的右边；分别求出点P表示的是什么数即可；\n</p>\n<p>\n\t（2）根据点P是线段AB的三等分点，分两种情况：①AP=<img src=\"http://cdn-web-img.zgyjyx.com/mgr/5dee6559c908c5a178057e87729f065a\" />AB；②BP=<img src=\"http://cdn-web-img.zgyjyx.com/mgr/5dee6559c908c5a178057e87729f065a\" />AB；分别求出点P表示的是什么数即可；\n</p>\n<p>\n\t（3）首先分两种情况，求出AP的长度是多少；然后根据点M是AP的中点，用线段AP的长度除以2，求出线段AM的长是多少即可；\n</p>\n<p>\n\t（4）根据图示，可得当点P在A、B两点之间时，PA+PB的值最小，据此判断即可．\n</p>\n<p>\n\t解：（1）①点P在点B的左边时，\n</p>\n<p>\n\t∵PB=2，4﹣2=2，\n</p>\n<p>\n\t∴点P表示的是2．\n</p>\n<p>\n\t②点P在点B的右边时，\n</p>\n<p>\n\t∵PB=2，4+2=6，\n</p>\n<p>\n\t∴点P表示的是6．\n</p>\n<p>\n\t综上，可得点P表示的是2或6；\n</p>\n<p>\n\t（2）∵线段AB的长度是6．\n</p>\n<p>\n\t①AP=<img src=\"http://cdn-web-img.zgyjyx.com/mgr/5dee6559c908c5a178057e87729f065a\" />AB=2时，点P表示的是0．\n</p>\n<p>\n\t②BP=<img src=\"http://cdn-web-img.zgyjyx.com/mgr/5dee6559c908c5a178057e87729f065a\" />AB=2时，点P表示的是2．\n</p>\n<p>\n\t综上，可得点P表示的是0或2；\n</p>\n<p>\n\t（3）①点P在点B的左边时，\n</p>\n<p>\n\t∵AP=6﹣2=4，4÷2=2，\n</p>\n<p>\n\t∴线段AM的长是2．\n</p>\n<p>\n\t②点P在点B的右边时，\n</p>\n<p>\n\t∵AP=6+2=8，8÷2=4，\n</p>\n<p>\n\t∴线段AM的长是4．\n</p>\n<p>\n\t综上，可得\n</p>\n<p>\n\t线段AM的长是2或4．\n</p>\n<p>\n\t（4）根据图示，可得\n</p>\n<p>\n\t当点P在A、B两点之间时，PA+PB的值最小，\n</p>\n<p>\n\t此时，PA+PB=AB=6，\n</p>\n<p>\n\t所以PA+PB的最小值是6．\n</p>",
+            "videourl": "http://cdn-web-video.zgyjyx.com/dit_6968/lqkA6SbaXSdbC6ZFI377aI6zl48x.mp4"
+        },
+        {
+            "content": "<p>\n\t如图，小黄和小陈观察蜗牛爬行，蜗牛在以A为起点沿数轴匀速爬向B点的过程中，到达C点时用了9分钟，那么到达B点还需要<u> &nbsp; &nbsp; &nbsp; &nbsp;</u><u></u>分钟．\n</p>\n<p>\n\t<img src=\"http://cdn-web-img.zgyjyx.com/dit_11882/Fo-F7vNJCwqfJFHBIS-IH1izsymD.png\" width=\"250\" height=\"22\" alt=\"\" /> \n</p>",
+            "id": 13012,
+            "explanation": "<p>\n\t分析：由数轴可得A到C有三个单位长度，用时9分钟可以求得每个单位长度用的时间，由C到B有两个单位程度，从而可以求得由C到B用的时间，本题得以解决．\n</p>\n<p>\n\t解：∵9÷3=3，\n</p>\n<p>\n\t∴2×3=6，\n</p>\n<p>\n\t即由C到点B还需要6分钟．\n</p>\n<p>\n\t故答案为：6．\n</p>",
+            "videourl": "http://cdn-web-video.zgyjyx.com/dit_6968/FpBeNY5LH9Jr6JX58n_WWGAT61GL.mp4"
+        },
+        {
+            "content": "<p>\n\ta，b，c三个数在数轴上的位置如图所示，则下列结论不正确的是（ &nbsp;）\n</p>\n<p>\n\t<img src=\"http://cdn-web-img.zgyjyx.com/dit_18/FpS9QFRpJ5XwVaUQzf09pd_cnJYm.png\" /> \n</p>\n<p>\n\t<span style=\"line-height:1.5;\">A．a+b＜0 &nbsp;&nbsp;</span> \n</p>\n<p>\n\t<span style=\"line-height:1.5;\">B．b+c＜0</span> \n</p>\n<p>\n\tC．b+a＞0\n</p>\n<p>\n\tD．a+c＞0\n</p>",
+            "id": 18643,
+            "explanation": "<p>\n\t分析：根据数轴上的数，右边的数总是大于左边的数，即可判断a，b，c的符号，根据到原点的距离即可判断绝对值的大小，再根据有理数的加法法则即可作出判断．\n</p>\n<p>\n\t解：根据数轴可知：b＜a＜0＜c，且|a|＜|c|＜|b|．\n</p>\n<p>\n\t则a+b＜0，b+c＜0，a+c＞0，故A、B、D一定正确，C一定错误．\n</p>\n<p>\n\t故选C．\n</p>",
+            "videourl": ""
+        },
+        {
+            "content": "<p>\n\t有6个量杯A、B、C、D、E、F，它们的容积分别是16毫升、18毫升、22毫升、23毫升、24毫升和34毫升．有些量杯中注满了酒精，有些量杯中注满了蒸馏水，还剩下一个空量杯，而酒精的体积是蒸馏水体积的两倍．那么注满蒸馏水的量杯是（　　）\n</p>\n<p>\n\tA．B、D\n</p>\n<p>\n\tB．D、E\n</p>\n<p>\n\tC．A、E\n</p>\n<p>\n\tD．A、C\n</p>",
+            "id": 21698,
+            "explanation": "<p>\n\t分析:将6个数去掉一个数，将其余数分别组合相加，直到发现一组数据的和是另一组数据和的2倍即可．\n</p>\n<p>\n\t解：在6个数中，\n</p>\n<p>\n\t24+34+18=2×（16+22），\n</p>\n<p>\n\t可见，D杯为空杯，\n</p>\n<p>\n\tA、C杯中为蒸馏水．\n</p>\n<p>\n\t故选D．\n</p>",
+            "videourl": "http://cdn-web-video.zgyjyx.com/dit_17/FinYBXkZ8AEdvLjqYcembuBZEL0n.mp4"
+        },
+        {
+            "content": "<p>\n\t有三个饼，一面要烤1分钟，一个锅一次只能烤两个，要烤完三个饼，问最短几分钟搞定？（　　）\n</p>\n<p>\n\tA．2\n</p>\n<p>\n\tB．3\n</p>\n<p>\n\tC．4\n</p>\n<p>\n\tD．5\n</p>",
+            "id": 20410,
+            "explanation": "<p>\n\t分析:第一次先放进去两个，1分钟后拿出来一个，再把最后一个放进去，1分钟后，一个熟了，再把开始拿出的放进去即可．\n</p>\n<p>\n\t解：第一次先将甲、乙两个饼放进去拷1分钟，然后拿出甲饼，再把丙放进去，拷1分钟后乙饼熟了，拿出，再把甲饼放进去，又1分钟后，甲、丙两个饼都熟了，所以拷完三个饼最短需3分钟．\n</p>\n<p>\n\t故选B．\n</p>",
+            "videourl": "http://cdn-web-video.zgyjyx.com/dit_63/Fg9PthnrUv0LPHIdc5FvSojFwnFp.mp4"
+        },
+        {
+            "content": "<p>\n\t如图，直线a，b被直线c所截，∠1=65°，下列条件能推出a∥b的是（　　）\n</p>\n<p>\n\t<img src=\"http://cdn-web-img.zgyjyx.com/dit_341/Fgbe46-7k9x-kOCm1HSSl_kTtxUU.png\" width=\"205\" height=\"150\" alt=\"\" /> \n</p>\n<p>\n\tA．∠3=65°\n</p>\n<p>\n\tB．∠2=65°\n</p>\n<p>\n\tC．∠4=65°\n</p>\n<p>\n\tD．∠5=65°\n</p>",
+            "id": 61926,
+            "explanation": "<p>\n\t分析：根据同位角相等，两直线平行即可作出判断．\n</p>\n<p>\n\t解：当∠1=∠3时，可得：a∥b（同位角相等，两直线平行）\n</p>\n<p>\n\t∴ ∠3=∠1=65°\n</p>\n<p>\n\t故选A．\n</p>",
+            "videourl": "http://cdn-web-video.zgyjyx.com/dit_63/FhZq5DAiEmx5s5bOKPGoc1BAecIP.mp4"
+        },
+        {
+            "content": "<p>\n\t如图，∠1=∠2，则下列结论正确的是(　 &nbsp;)\n</p>\n<p>\n\t<img src=\"http://cdn-web-img.zgyjyx.com/dit_63/FgWDJkhiz7LUXVOHOeoN9Sf6Jx1_.png\" width=\"169\" height=\"150\" alt=\"\" /> \n</p>\n<p>\n\tA.∠1=∠D\t &nbsp;\n</p>\n<p>\n\tB.AB∥CD &nbsp; &nbsp;\n</p>\n<p>\n\tC.AC∥BD\t &nbsp;\n</p>\n<p>\n\tD.∠C=∠D\n</p>",
+            "id": 61925,
+            "explanation": "<p>\n\t分析:已知∠1=∠2，结合图形可知是同位角相等，采用平行线的判定方法即可求解．\n</p>\n<p>\n\t解：同位角相等，两直线平行．∠1=∠2，则AC∥BD．\n</p>\n<p>\n\t故选C．\n</p>",
+            "videourl": "http://cdn-web-video.zgyjyx.com/dit_63/FjrrLSmeTsA1aCGc872T__khh0h0.mp4"
+        },
+        {
+            "content": "<p>\n\t若∠1与∠2的关系为同位角，当∠1=50°时，∠2等于（　 　）\n</p>\n<p>\n\tA．50° &nbsp; &nbsp; &nbsp;\n</p>\n<p>\n\tB．130° &nbsp; &nbsp; &nbsp;\n</p>\n<p>\n\tC．50°或130° &nbsp; &nbsp;&nbsp;\n</p>\n<p>\n\tD．不确定\n</p>",
+            "id": 61924,
+            "explanation": "<p>\n\t分析:由于两直线的位置关系不能确定，所以∠2的度数不能确定．\n</p>\n<p>\n\t解：∵∠1与∠2的关系为同位角，两直线的位置关系不能确定，\n</p>\n<p>\n\t∴∠2的度数不能确定．\n</p>\n<p>\n\t故选D．\n</p>",
+            "videourl": "http://cdn-web-video.zgyjyx.com/dit_6970/Fqry4v7pcLwJHOanbC1ucY0UpF9b.mp4"
+        },
+        {
+            "content": "<p>\n\t李强靠勤工俭学的收入维持上大学费用，表中是李强某一周的收支情况表，（单位：元）：\n</p>\n<p>\n\t<img src=\"http://cdn-web-img.zgyjyx.com/dit_63/Fg6rT_B3OlUtKrozb_XCJ4tn0yXe.png\" width=\"411\" height=\"70\" alt=\"\" /> \n</p>\n<p>\n\t（1）到这个周末，李强有多少节余？\n</p>\n<p>\n\t（2）照这个情况估计，李强一个月（按30天计算）能有多少节余？\n</p>\n<p>\n\t（3）按以上的支出水平，李强一个月（按30天计算）至少有多少收入才能维持正常开支？\n</p>",
+            "id": 12548,
+            "explanation": "<p>\n\t分析：（1）先求得收入，再看其支出，求其差可得出结论；\n</p>\n<p>\n\t（2）利用计算的结果求出其每天的节余，再乘30求得；\n</p>\n<p>\n\t（3）可以先计算出本周的支出情况，求出其平均每天的支出，再乘30可得出其支出情况，可得出结论．\n</p>\n<p>\n\t解：（1）这七天的收入为：15+18+0+16+0+25+24=98，\n</p>\n<p>\n\t支出为：10+14+13+8+10+14+15=84，\n</p>\n<p>\n\t98﹣84=14，\n</p>\n<p>\n\t所以到这个周末，李强节余14元；\n</p>\n<p>\n\t（2）由（1）可知其每天能节余14÷7=2（元），30×2=60（元），即照这个情况估计，李强一个月（按30天计算）能有60元的节余；\n</p>\n<p>\n\t（3）84÷7=12（元），30×12=360（元），即按以上的支出水平，李强一个月（按30天计算）至少有360元收入才能维持正常开支．\n</p>",
+            "videourl": "http://cdn-web-video.zgyjyx.com/dit_6968/lvQm70HWTJUe2-ddfUzOfLAms15F.mp4"
+        },
+        {
+            "content": "在数轴上表示﹣2和10两点之间插入三个点，使这5个点每相邻两点之间的距离相等，求这三个点所表示的数．",
+            "id": 13258,
+            "explanation": "<p>\n\t分析:因为两点之间的距离12，即在12的距离上有五个点，故有四个间距，即间距12÷4=3，进而求出三个点所表示的数．\n</p>\n<p>\n\t解：∵﹣2和10的距离是12，\n</p>\n<p>\n\t∴12的距离上有五个点，故有四个间距，即间距12÷4=3，\n</p>\n<p>\n\t∴另外的三个点分别是：10-3=7,7-3=4,4-3=1．\n</p>\n<p>\n\t∴这三个点所表示的数分别是：1，4，7．\n</p>",
+            "videourl": "http://cdn-web-video.zgyjyx.com/dit_353/FiDJ2MzLEG2ucyWLV0CzQYx1RpcC.mp4"
+        },
+        {
+            "content": "<p>\n\t一辆货车从超市出发，向东走了3千米到达聪聪家，继续向前走了1.5千米到达明明家，然后向西走了9.5千米到达亮亮家，最后回到超市．\n</p>\n<p>\n\t<img src=\"http://cdn-web-img.zgyjyx.com/dit_12743/FlIbKH-WdW56bGNz7R_7LaFF2toZ.png\" width=\"400\" height=\"32\" alt=\"\" /> \n</p>\n<p>\n\t（1）以超市为原点，以向东的方向为正方向，用1个单位长度表示1千米，请在数轴上表示出聪聪、明明、亮亮家的位置．\n</p>\n<p>\n\t<img src=\"http://cdn-web-img.zgyjyx.com/dit_12743/FlHtEcEA7EDv1SFyaWAeH3fZeXoE.png\" width=\"400\" height=\"25\" alt=\"\" /> \n</p>\n<p>\n\t（2）亮亮家距聪聪家多远？\n</p>\n<p>\n\t（3）货车一共行驶了多少千米？\n</p>",
+            "id": 13233,
+            "explanation": "<p>\n\t分析:（1）根据数轴与点的对应关系，可知超市在原点，聪聪家所在的位置表示的数是+3，明明家所在的位置表示的数是+4.5，亮亮家所在的位置表示的数是﹣5；\n</p>\n<p>\n\t（2）根据数轴上两点上的距离的计算方法进行解答；\n</p>\n<p>\n\t（3）根据题意求出这趟路一共有多少千米．\n</p>\n<p>\n\t解：（1）如图所示：\n</p>\n<p>\n\t<img src=\"http://cdn-web-img.zgyjyx.com/dit_12743/FvQNNZ1VlgNOGeZvxbPXBtq4mthx.png\" width=\"350\" height=\"54\" alt=\"\" />；\n</p>\n<p>\n\t（2）3+5=8（千米）．\n</p>\n<p>\n\t答：亮亮家距聪聪家8千米．\n</p>\n<p>\n\t（3）3+1.5+9.5+5=19（千米）．\n</p>\n<p>\n\t答：货车一共行驶了19千米．\n</p>",
+            "videourl": "http://cdn-web-video.zgyjyx.com/dit_353/lgyYt8-YMb7hWgXEgnbD6aJ1P77d.mp4"
+        },
+        {
+            "content": "<p>\n\t如图，在数轴上有一条可以移动的线段AB，若将线段AB向右移动，使得点A移动到点B的处，这时点B对应的数字是14，若将线段AB向左移动，使得点B移动到点A处，这时点A对应的数字是2，如果数轴的单位长度是1cm．\n</p>\n<p>\n\t<img src=\"http://cdn-web-img.zgyjyx.com/dit_12743/FlOT6W8lEhjF-0cSzyDL7zipUcS8.png\" width=\"300\" height=\"36\" alt=\"\" /> \n</p>\n<p>\n\t（1）求线段AB的长度；\n</p>\n<p>\n\t（2）求起初点A，点B对应的数分别是多少？\n</p>",
+            "id": 13240,
+            "explanation": "<p>\n\t分析:（1）由题意可知线段的3倍长是点2到点14之间的线段，故可得出线段AB=（14﹣2）÷3；\n</p>\n<p>\n\t（2）根据线段AB的长度为4厘米将线段AB向右移动，使得点A移动到点B处，这时点B对应的数是14；若将线段AB向左移动，使得点B移动到点A处，这时点A对应的数是6即可得出结论．\n</p>\n<p>\n\t解:（1）∵由题意可知线段的3倍长是点2到点14之间的线段，\n</p>\n<p>\n\t∴（14﹣2）÷3=4，\n</p>\n<p>\n\t∴线段AB的长度为4厘米\n</p>\n<p>\n\t（2）∵线段AB的长度为4厘米，\n</p>\n<p>\n\t∴2+4=6，14﹣4=10，\n</p>\n<p>\n\t∴起初点A对应的数是6，点B对应的数是10．\n</p>",
+            "videourl": "http://cdn-web-video.zgyjyx.com/dit_2676/FiXStUlc2Z7ym8ofwkn0c-Ejz9jj.mp4"
+        },
+        {
+            "content": "<p>\n\t河北新闻网报道，石家庄运河桥客运站为了保证清明节客流高峰期间的旅客输送任务，全站所有工作人员进行加班，对旅客输送工作进行安排部署．表记录了运河桥客运站在4月3～7日每天客流量变化的情况：\n</p>\n<p>\n\t<img src=\"http://cdn-web-img.zgyjyx.com/dit_6968/FoQ0K6aP_EhawHlIy7sa-66l12KF.png\" width=\"550\" height=\"62\" alt=\"\" /> \n</p>\n<p>\n\t（1）哪天的客流量最大？\n</p>\n<p>\n\t（2）求这五天的总客流量．\n</p>",
+            "level": 1,
+            "explanation": "<p>\n\t分析：（1）由表格可知3.5万人是5天中客流量最高的，所以4月6日客流量最大；\n</p>\n<p>\n\t（2）将5天的客流量相加即可求出答案．\n</p>\n<p>\n\t解：（1）由表格可知，4月6日客流量最大，最大为3.5万人；\n</p>\n<p>\n\t（2）这五天的总客流量为：3.4+3.3+2.7+3.5+3.1=16万人.\n</p>\n<p>\n\t答：这五天的总客流量为16万人．\n</p>",
+            "videourl": "http://cdn-web-video.zgyjyx.com/dit_6968/FsEu0EpM4N_s25S4fjhHK0-M74XF.mp4"
+        },
+        {
+            "content": "现有某个数学运算符号“△”能使下列算式成立：<img src=\"http://cdn-web-img.zgyjyx.com/mgr/ec501b90778e49a41262e6fcb5490ee6\" />，<img src=\"http://cdn-web-img.zgyjyx.com/mgr/aef3176cfd5f569f260dc82777b909fa\" />，<img src=\"http://cdn-web-img.zgyjyx.com/mgr/de84e5d1ee0d9021856be1013d7ee0e9\" />，则<img src=\"http://cdn-web-img.zgyjyx.com/mgr/fa5293b2f2629444dc857fab4c33be57\" /><u> &nbsp; &nbsp; &nbsp; &nbsp;</u>．",
+            "id": 16991,
+            "explanation": "<p>\n\t分析：根据<img src=\"http://cdn-web-img.zgyjyx.com/mgr/ec501b90778e49a41262e6fcb5490ee6\" />，<img src=\"http://cdn-web-img.zgyjyx.com/mgr/aef3176cfd5f569f260dc82777b909fa\" />，<img src=\"http://cdn-web-img.zgyjyx.com/mgr/de84e5d1ee0d9021856be1013d7ee0e9\" />，可得每个算式的结果中分母等于△两边的两个分母的积，分子等于△两边的两个分子的和，据此求出<img src=\"http://cdn-web-img.zgyjyx.com/mgr/4453ce208779ea0d13dc78b7bec20f34\" />的值是多少即可．\n</p>\n<p>\n\t解：∵<img src=\"http://cdn-web-img.zgyjyx.com/mgr/ec501b90778e49a41262e6fcb5490ee6\" />，<img src=\"http://cdn-web-img.zgyjyx.com/mgr/aef3176cfd5f569f260dc82777b909fa\" />，<img src=\"http://cdn-web-img.zgyjyx.com/mgr/de84e5d1ee0d9021856be1013d7ee0e9\" />，\n</p>\n<p>\n\t∴<img src=\"http://cdn-web-img.zgyjyx.com/mgr/04897fa80c9bb4a36dfff4f13a614747\" />．\n</p>\n<p>\n\t故答案为：<img src=\"http://cdn-web-img.zgyjyx.com/mgr/404940a54e8bf8ec0f419ed8b7e52ff7\" />．\n</p>",
+            "videourl": "http://cdn-web-video.zgyjyx.com/dit_6968/FgMIf7EEO_5GBa5y6vgpm3HwhG9A.mp4"
+        },
+        {
+            "content": "不小于﹣3的负整数有<u>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</u>个.",
+            "id": 20627,
+            "explanation": "<p>\n\t分析:根据小于零的数是负数，可得答案．\n</p>\n<p>\n\t解：不小于﹣3的负整数有﹣3，﹣2，﹣1，\n</p>\n<p>\n\t故答案为：3.\n</p>",
+            "videourl": "http://cdn-web-video.zgyjyx.com/dit_353/FmF9ghyEJr9kLIYDHq6SEk691fsq.mp4"
+        },
+        {
+            "content": "每年12月30日各班举办的元旦晚会是同学们施展才艺的舞台，在某班晚会上，主持人为同学们准备了一个游戏；从200个外形相同的气球中找到唯一装有奖品的气球，主持人将这些气球按1至200的顺序编号排成一列，第一次先请一位同学从中取出所有序号为单数的球，均没有发现奖品，接着主持人将剩下的球又按1-100重新编号排成一列（即原来的2号变为1号，原来的4号变为2号，…，原来的200号变为100号），又请一位同学从中取出所有新序号为单数的球，也没有发现奖品，…，如此下去，直到最后一个气球是装有奖品的，那么这个装有奖品的气球最初的序号是<u>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</u>.",
+            "id": 20636,
+            "explanation": "<p>\n\t分析:第一次取出的是序号为单号的气球，则剩下的气球的序号能被2整除；第二次把剩下的气球按原来的位置编1-100号，取出新编的单号，则剩下的气球原来的编号能被4整除；按此方法第三次取气球后，剩下的气球原来的编号能被8整除；依此下去就可求出装有奖品的气球的序号．\n</p>\n<p>\n\t解：第一次取出的是单号的气球，剩下的气球的序号是2的倍数，因为原来是200只，所以还剩100只；\n</p>\n<p>\n\t第二次取出后，剩下的气球的序号是4的倍数，所以还剩50只；\n</p>\n<p>\n\t第三次取出后，剩下的气球的序号是8的倍数，所以还剩25只；\n</p>\n<p>\n\t第四次取出后，剩下的气球的序号是16的倍数，所以还剩12只；\n</p>\n<p>\n\t第五次取出后，剩下的气球的序号是32的倍数，所以还剩6只；\n</p>\n<p>\n\t第六次取出后，剩下的气球的序号是64的倍数，所以还剩3只；\n</p>\n<p>\n\t第七次取出后，剩下的气球的序号是128的倍数，所以还剩1只；\n</p>\n<p>\n\t故装有奖品的气球最初的序号是128．\n</p>\n<p>\n\t故答案为：128．\n</p>",
+            "videourl": "http://cdn-web-video.zgyjyx.com/dit_17/Fs3Tz_DdmAeFVAAZ4dXODtDL5vf3.mp4"
+        },
+        {
+            "content": "已知数轴上A、B表示的数互为相反数，并且两点间的距离是4，点A在点B的左边，则点A、B表示的数分别是<u>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</u>，<u>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</u>．",
+            "id": 20633,
+            "explanation": "<p>\n\t分析：根据相反数的定义即可求解．\n</p>\n<p>\n\t解：数轴上A、B表示的数互为相反数，则两个点到原点的距离相等，而它们的距离为4，所以它们到原点的距离都为2；又因为点A在点B的左边，所以点A、B表示的数分别是﹣2，2．\n</p>\n<p>\n\t故答案为:﹣2，2．\n</p>",
+            "videourl": "http://cdn-web-video.zgyjyx.com/dit_12700/Fr0wu00WdDqV1Q3vORujJ_nMLFxe.mp4"
+        },
+        {
+            "content": "重庆市出租车的收费标准为：起步价10元（3km及3km以内为起步价），3km后每千米加收1.8元，那么王老师乘出租车23km的车费是<u>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</u>.",
+            "id": 20630,
+            "explanation": "<p>\n\t分析:根据出租车收费标准求出王老师的车费即可．\n</p>\n<p>\n\t解：根据题意得：10+（23-3）×1.8=10+20×1.8=10+36=46（元），\n</p>\n<p>\n\t则王老师乘出租车23km的车费是46元，\n</p>\n<p>\n\t故答案为：46.\n</p>",
+            "videourl": "http://cdn-web-video.zgyjyx.com/dit_353/FgXlrQvZvk6iCjhsSSPIgH47anfX.mp4"
+        }
+    ]
+}
