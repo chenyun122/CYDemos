@@ -74,6 +74,7 @@ class Solution {
  l1=[9,9]
  l2=[1]
  */
+/*
 let l1 = ListNode(9)
 l1.next = ListNode(9)
 
@@ -83,4 +84,5 @@ let solution = Solution()
 if let resultNode = solution.addTwoNumbers(l1, l2) {
     print(resultNode.desc)
 }
+ */
 

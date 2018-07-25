@@ -1,6 +1,6 @@
 //
 //  Median of Two Sorted Arrays.swift
-//  YjyxStudent
+//  https://leetcode.com/problems/median-of-two-sorted-arrays/description/
 //
 //  Created by Yun CHEN on 2018/7/25.
 //  Copyright © 2018年 YJYX. All rights reserved.
